@@ -1,0 +1,8 @@
+// Boolean operators use 1 for true and 0 for false
+int score = 87;
+int attendance = 95;
+if (score >= 80 && attendance >= 90) {
+    print(1);
+} else {
+    print(0);
+}

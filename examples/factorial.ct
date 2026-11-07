@@ -1,0 +1,11 @@
+// Functions and recursion (factorial of 5)
+fun factorial(n) {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+int number = 5;
+int answer = factorial(number);
+print(answer);

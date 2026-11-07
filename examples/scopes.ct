@@ -1,0 +1,7 @@
+// Nested declarations only exist within their block
+int x = 10;
+if (x > 0) {
+    int x = 3;
+    print(x);
+}
+print(x);
