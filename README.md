@@ -1,4 +1,5 @@
 # CodeTrace — Java Execution Tracer
+[![Java Tests](https://github.com/nimrah-a/CodeTrace/actions/workflows/java-tests.yml/badge.svg)](https://github.com/nimrah-a/CodeTrace/actions/workflows/java-tests.yml)
 
 A **dependency-free Java 17 console application** that interprets a **documented subset of Java-like syntax** and displays every execution step. Trace variable updates, loops, conditionals, function calls, recursion, and output—without Swing, Maven, or any third-party libraries.
 
