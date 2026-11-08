@@ -1,6 +1,10 @@
 # CodeTrace — Java Execution Tracer
 [![Java Tests](https://github.com/nimrah-a/CodeTrace/actions/workflows/java-tests.yml/badge.svg)](https://github.com/nimrah-a/CodeTrace/actions/workflows/java-tests.yml)
 
+## Execution Preview
+
+![CodeTrace Recursive Execution Example](codetrace-preview.png)
+
 A **dependency-free Java 17 console application** that interprets a **documented subset of Java-like syntax** and displays every execution step. Trace variable updates, loops, conditionals, function calls, recursion, and output—without Swing, Maven, or any third-party libraries.
 
 > **Scope:** This is an educational interpreter, **not a debugger for arbitrary Java source code**. It executes `.ct` examples using the small language described below. The runtime and parser are implemented in standard Java.
